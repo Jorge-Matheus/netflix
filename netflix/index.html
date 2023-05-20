@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+
+        body {
+            background-color: #000000;;
+        }
+
+        .container {
+            background-color: #000000;
+            position: fixed;
+            width: 100%;
+        }
+
+        header > a > h1 {
+            margin-left: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 2.5em;
+        }
+        
+
+        header a {
+            height: 200px;
+            color: red;
+            text-decoration: none;
+            padding-left: 30px;
+        }
+
+
+        .btn {
+            position: fixed;
+            top: 22px;
+            right: 45px;
+            width: 80px;
+            padding: 5px;
+            color: white;
+            background-color: red;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1em;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgba(255, 0, 0, 0.658);
+            transition: 0.5s;
+        }
+
+        #catalogo {
+            display: block;
+            margin: auto;
+            height: 90vh;
+            max-width: 90vw;
+            border: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child">
+            <header>
+                <a href="">
+                <h1>NETFLIX</h1>
+                </a>
+        <button class="btn">Entrar</button>
+    </header>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <div class="sessao">
+            <img id="catalogo" src="netflix-catalogo.jpg" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
